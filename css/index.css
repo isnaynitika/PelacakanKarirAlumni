@@ -1,0 +1,69 @@
+/* reset styling */
+html,
+body
+{
+    height: 100%;
+    width:  100%;
+    margin: 0;
+    padding: 0;
+    color:  #000;
+}
+
+/* navbar styling */
+.navbar,
+.navbar-brand
+{
+    font-size: 1.1em;
+    font-weight: 600;
+    background-color: #000;
+}
+
+/* padding between containers */
+.padding
+{
+    padding: 80px 0;
+}
+
+/* keep the image inside the containers */
+.padding img
+{
+    width: 80%;
+}
+
+.padding .text{
+    font-weight: 800;
+    font-size: 48px;
+    line-height: 73px;
+    color: black;
+}
+
+.padding .text h1{
+    font-weight: 800;
+    font-size: 38px;
+    text-align: center;
+    line-height: 73px;
+    color: black;
+}
+
+/* footer styling */
+footer
+{
+    padding: 5% 5%;
+    color: #fff;
+    background-color: #000;
+    font-size: 0.8em;
+}
+
+/* footer icons styling */
+.fa
+{
+    padding: 15px;
+    color: #fff;
+    text-decoration: none;
+    font-size: 20px;
+}
+
+.icon
+{
+    max-width: 150px;
+}
